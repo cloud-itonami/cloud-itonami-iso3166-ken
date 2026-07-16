@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "ken.companies-act-17-2015"
+           :title "Companies Act"
+           :jurisdiction "KEN"
+           :kind :law
+           :law-number "No. 17 of 2015 (Cap. 486)"
+           :url "https://new.kenyalaw.org/akn/ke/act/2015/17/eng@2024-12-27"
+           :url-provenance :official-kenyalaw-org
+           :enacted-date "2015-09-11"
+           :retrieved-at "2026-07-16"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "ken.data-protection-act-24-2019"
+           :title "Data Protection Act"
+           :jurisdiction "KEN"
+           :kind :law
+           :law-number "No. 24 of 2019 (Cap. 411C)"
+           :url "https://new.kenyalaw.org/akn/ke/act/2019/24/eng@2022-12-31"
+           :url-provenance :official-kenyalaw-org
+           :enacted-date "2019-11-08"
+           :retrieved-at "2026-07-16"
+           :topic [:data-protection :privacy]}]
