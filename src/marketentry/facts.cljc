@@ -11,13 +11,7 @@
           :rep-provenance "https://www.ppra.go.ke/"
           :corporate-number-owner-authority "BRS / KRA"
           :corporate-number-legal-basis "Company registration / PIN"
-          :corporate-number-provenance "https://brs.go.ke/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "ZAF" {:name "South Africa" :owner-authority "CSD/eTender" :legal-basis "PFMA" :national-spec "CSD" :provenance "https://www.etenders.gov.za/"
-          :required-evidence ["CSD registration" "CIPC record" "SARS tax clearance" "Authorized-representative record"]}
-   "NGA" {:name "Nigeria" :owner-authority "BPP/NOCOPO" :legal-basis "PPA 2007" :national-spec "NOCOPO" :provenance "https://www.bpp.gov.ng/"
-          :required-evidence ["CAC registration" "NOCOPO registration" "TIN record" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://brs.go.ke/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
